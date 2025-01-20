@@ -3,10 +3,11 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./DSGN3.png",
-  "./DSGN4.png",
-  "./DSGN5.png",
-  "./cubeDrawings/cube4.webp",
+    "../New folder (2)/DSGN3.png",  // Go one level up
+    "../New folder (2)/DSGN4.png",
+    "../New folder (2)/DSGN5.png",
+    "../New folder (3)/DSGN7.png",
+    "../New folder (3)/DSGN9.png"
 ];
 
 const trees = [
@@ -38,12 +39,26 @@ document.querySelector("#app").innerHTML = `
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
-              .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
-              )
-              .join("")}
-          </div>
+           <div id="images">
+  <a href="./CE Images/ce amani.png" target="_blank">
+    <img src="./CE Images/ce amani.png" alt="cube1" />
+  </a>
+  <a href="../New folder (2)/DSGN3.png" target="_blank">
+    <img src="../New folder (2)/DSGN3.png" alt="cube2" />
+  </a>
+  <a href="../New folder (2)/DSGN4.png" target="_blank">
+    <img src="../New folder (2)/DSGN4.png" alt="cube3" />
+  </a>
+  <a href="../New folder (2)/DSGN5.png" target="_blank">
+    <img src="../New folder (2)/DSGN5.png" alt="cube4" />
+  </a>
+  <a href="../New folder (3)/DSGN7.png" target="_blank">
+    <img src="../New folder (3)/DSGN7.png" alt="cube4" />
+  </a>
+   <a href="../New folder (3)/DSGN9.png" target="_blank">
+    <img src="../New folder (3)/DSGN9.png" alt="cube4" />
+  </a>
+</div>
           <h4 id="description">The process of “Digitized Catastrophe” began with exploring the connections that I have to the digital world that we all find ourselves interconnected with. I wanted to showcase my opinions on societies, and my own dependence on technology. Thus, the images were chosen and collaged to create a cyber-like world that contains environments similar to ones that could be found in real life. To symbolically represent our reliance on technology, the people in the scene are created from inorganic material or parts of them are technological as well.
 
 The world as we know it is constantly becoming more technological, and in turn humanity is as well. Our dependence on technology is neither inherently good or bad, however, more commonly I find myself negatively impacted by it. Our digital world consistently pushes out information of new tragedies and disparities daily, and crowds our worldview. We are constantly watching others and being watched, it is our connection to everyone else, yet also what creates disconnect because of its prioritization in society.

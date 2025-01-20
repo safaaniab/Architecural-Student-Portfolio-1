@@ -37,7 +37,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
+  background-color: #2c2a5e38;
   color: white;
   z-index: 10;
 }
@@ -97,7 +97,7 @@ h1 {
   width: 200px;
   margin-right: 3em;
   margin-left: 6em;
-  border: 1px solid #ccc;
+  border: 3px solid #3d417227;
 }
 
 #model2,
@@ -106,14 +106,16 @@ h1 {
   width: 300px;
   margin-right: 3em;
   margin-left: 6em;
-  border: 1px solid #ccc;
+  margin-top: 0.5em
+  border: 1.5px solid #ccc;
 }
 
 img {
   /* Image dimensions and margin */
-  height: 120px;
+  height: 200px;
   width: 120px;
   margin: 0.5em;
+  border: 1px solid #ccc;
 }
 
 #images {
@@ -140,7 +142,7 @@ img {
     justify-content: flex-start;
     height: auto;
     max-height: 8em;  /* Changes the size of the text box */
-    width: 35em;
+    width: 45em;
     overflow-y: scroll;
     overflow-x: hidden;
     font-weight: 100;
