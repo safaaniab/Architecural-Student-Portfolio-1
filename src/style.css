@@ -136,7 +136,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3em;  /* Add spacing between elements */
+  gap: 6em;  /* Add spacing between elements */
 }
 
 
