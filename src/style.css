@@ -81,17 +81,11 @@ h1 {
 #project-row {
   /* Row layout for projects */
   display: flex;
-  flex-direction: column; /* Stack the elements vertically */
   align-items: center;
   justify-content: center;
   padding-top: 5em;
 }
 
-#images-description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .three-model {
   /* Styling for project models */
@@ -133,7 +127,18 @@ img {
   align-items: center;
   height: 8em;
   margin-bottom: 2em;
+  flex-wrap: wrap;  /* Prevent images from overlapping */
+  gap: 10px;  /* Space between images */
 }
+
+#images-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;  /* Add spacing between elements */
+}
+
 
 #images-row {
   /* Row layout for images */
@@ -150,7 +155,7 @@ img {
     justify-content: flex-start;
     height: auto;
     max-height: 8em;  /* Changes the size of the text box */
-    width: 35em;
+    width: 50em;
     overflow-y: scroll;
     overflow-x: hidden;
     font-weight: 100;

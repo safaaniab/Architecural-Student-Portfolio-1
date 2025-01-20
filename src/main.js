@@ -35,31 +35,21 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       DIGITIZED CATASTROPHE
         <div class="three-model">
-          <img src="./CE Images/ce amani.png" id="model1" alt="Model 1 Image" style="width: 330px; height: 510px; object-fit: cover;"/>
+        <a href="./CE Images/ce amani.png" target="_blank"><img src="./CE Images/ce amani.png" id="model1" alt="Model 1 Image" /></a>
         </div>
         <div id="images-description">
           <div id="images">
-           <div id="images">
-           
-  <a href="../New folder (2)/DSGN3.png" target="_blank">
-    <img src="../New folder (2)/DSGN3.png" alt="cube2" />
-  </a>
-  <a href="../New folder (2)/DSGN4.png" target="_blank">
-    <img src="../New folder (2)/DSGN4.png" alt="cube3" />
-  </a>
-  <a href="../New folder (2)/DSGN5.png" target="_blank">
-    <img src="../New folder (2)/DSGN5.png" alt="cube4" />
-  </a>
-  <a href="../New folder (3)/DSGN7.png" target="_blank">
-    <img src="../New folder (3)/DSGN7.png" alt="cube4" />
-  </a>
-   <a href="../New folder (3)/DSGN9.png" target="_blank">
-    <img src="../New folder (3)/DSGN9.png" alt="cube4" />
-  </a>
+  ${cubes
+    .map(
+      (cube, index) => `<a href="${cube}" target="_blank"><img src="${cube}" alt="cube${index + 1}" /></a>`
+    )
+    .join("")}        
 </div>
           <h4 id="description">The process of “Digitized Catastrophe” began with exploring the connections that I have to the digital world that we all find ourselves interconnected with. I wanted to showcase my opinions on societies, and my own dependence on technology. Thus, the images were chosen and collaged to create a cyber-like world that contains environments similar to ones that could be found in real life. To symbolically represent our reliance on technology, the people in the scene are created from inorganic material or parts of them are technological as well.
 
-The world as we know it is constantly becoming more technological, and in turn humanity is as well. Our dependence on technology is neither inherently good or bad, however, more commonly I find myself negatively impacted by it. Our digital world consistently pushes out information of new tragedies and disparities daily, and crowds our worldview. We are constantly watching others and being watched, it is our connection to everyone else, yet also what creates disconnect because of its prioritization in society.
+
+          The world as we know it is constantly becoming more technological, and in turn humanity is as well. Our dependence on technology is neither inherently good or bad, however, more commonly I find myself negatively impacted by it. Our digital world consistently pushes out information of new tragedies and disparities daily, and crowds our worldview. We are constantly watching others and being watched, it is our connection to everyone else, yet also what creates disconnect because of its prioritization in society.
+          
 
 It is beneficial at highlighting good in our world as well, but more often than not, it is overlooked and forgotten. I myself am guilty of this as well, as we are bombarded with negative information that we simply process and forget before the next piece of media is published and the cycle begins again. The information we learn is so fleeting, quick and ephemeral, but as it is so commonly negative, our outlook on life tends to reflect what we learn as well. Thus, while a commentary on the tendency of individuals to start catastrophizing, there are pockets of hope within the crowded, technological city in the cadavre. To show that while the world may seem bleak and hopeless - and it is easy to fall into pits of despair believing this - there is still good in the world, no matter how small, if individuals choose to look for it.</h4>
         </div>
