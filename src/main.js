@@ -40,9 +40,7 @@ document.querySelector("#app").innerHTML = `
         <div id="images-description">
           <div id="images">
            <div id="images">
-  <a href="./CE Images/ce amani.png" target="_blank">
-    <img src="./CE Images/ce amani.png" alt="cube1" />
-  </a>
+           
   <a href="../New folder (2)/DSGN3.png" target="_blank">
     <img src="../New folder (2)/DSGN3.png" alt="cube2" />
   </a>

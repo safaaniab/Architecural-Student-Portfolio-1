@@ -81,8 +81,16 @@ h1 {
 #project-row {
   /* Row layout for projects */
   display: flex;
+  flex-direction: column; /* Stack the elements vertically */
+  align-items: center;
   justify-content: center;
   padding-top: 5em;
+}
+
+#images-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .three-model {
@@ -107,7 +115,7 @@ h1 {
   margin-right: 3em;
   margin-left: 6em;
   margin-top: 0.5em
-  border: 1.5px solid #ccc;
+  border 1.5px solid #ccc;
 }
 
 img {
@@ -115,7 +123,7 @@ img {
   height: 200px;
   width: 120px;
   margin: 0.5em;
-  border: 1px solid #ccc;
+
 }
 
 #images {
@@ -142,7 +150,7 @@ img {
     justify-content: flex-start;
     height: auto;
     max-height: 8em;  /* Changes the size of the text box */
-    width: 45em;
+    width: 35em;
     overflow-y: scroll;
     overflow-x: hidden;
     font-weight: 100;
