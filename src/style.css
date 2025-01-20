@@ -62,6 +62,12 @@ a:hover {
   margin: 2em;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  left: -80px
+  white-space: nowrap;
+  font-size: 1.5em
 }
 
 h1 {
@@ -95,8 +101,8 @@ h1 {
 }
 
 #model1{
-  height: 300px;
-  width: 200px;
+  height: 450px;
+  width: 300px;
   margin-right: 3em;
   margin-left: 6em;
   border: 3px solid #3d417227;
@@ -114,8 +120,8 @@ h1 {
 
 img {
   /* Image dimensions and margin */
-  height: 200px;
-  width: 120px;
+  height: 230px;
+  width: 150px;
   margin: 0.5em;
 
 }

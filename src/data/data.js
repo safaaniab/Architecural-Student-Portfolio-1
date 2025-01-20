@@ -5,7 +5,7 @@ const data = {
     bio: "Undergraduate Architectural Student at University of Calgary passionate about using design to revitalize communities.",
     contact: {
         email: "amanisafaa.bhatti@ucalgary.ca",
-        phone: "(587)429-5603",
+        phone: "(587) 429-5603",
         github: "https://github.com/safaaniab",
     }
 }
