@@ -3,9 +3,9 @@ import data from "./data/data";
 import { createThreeScene } from "./threeScene";
 
 const cubes = [
-  "./DSGN smth3.png",
-  "./DSGN smth4.png",
-  "./DSGN smth5.png",
+  "./DSGN3.png",
+  "./DSGN4.png",
+  "./DSGN5.png",
   "./cubeDrawings/cube4.webp",
 ];
 
@@ -34,7 +34,7 @@ document.querySelector("#app").innerHTML = `
       <div id="project-row">
       DIGITIZED CATASTROPHE
         <div class="three-model">
-          <img src="./CE Images/ce amani.png" id="model1" alt="Model 1 Image"/>
+          <img src="./CE Images/ce amani.png" id="model1" alt="Model 1 Image" style="width: 330px; height: 510px; object-fit: cover;"/>
         </div>
         <div id="images-description">
           <div id="images">
@@ -44,7 +44,11 @@ document.querySelector("#app").innerHTML = `
               )
               .join("")}
           </div>
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
+          <h4 id="description">The process of “Digitized Catastrophe” began with exploring the connections that I have to the digital world that we all find ourselves interconnected with. I wanted to showcase my opinions on societies, and my own dependence on technology. Thus, the images were chosen and collaged to create a cyber-like world that contains environments similar to ones that could be found in real life. To symbolically represent our reliance on technology, the people in the scene are created from inorganic material or parts of them are technological as well.
+
+The world as we know it is constantly becoming more technological, and in turn humanity is as well. Our dependence on technology is neither inherently good or bad, however, more commonly I find myself negatively impacted by it. Our digital world consistently pushes out information of new tragedies and disparities daily, and crowds our worldview. We are constantly watching others and being watched, it is our connection to everyone else, yet also what creates disconnect because of its prioritization in society.
+
+It is beneficial at highlighting good in our world as well, but more often than not, it is overlooked and forgotten. I myself am guilty of this as well, as we are bombarded with negative information that we simply process and forget before the next piece of media is published and the cycle begins again. The information we learn is so fleeting, quick and ephemeral, but as it is so commonly negative, our outlook on life tends to reflect what we learn as well. Thus, while a commentary on the tendency of individuals to start catastrophizing, there are pockets of hope within the crowded, technological city in the cadavre. To show that while the world may seem bleak and hopeless - and it is easy to fall into pits of despair believing this - there is still good in the world, no matter how small, if individuals choose to look for it.</h4>
         </div>
       </div>
 ${/* Model 2 commented out}
