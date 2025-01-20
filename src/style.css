@@ -1,19 +1,10 @@
-body {
+:root {
+  /* Global font, line-height, and colors */
   font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
   font-weight: 400;
-  color: rgba(0, 8, 97, 0.87);
-}
-
-/* Title font outline effect */
-.outlined-title {
-  font-family: 'Roboto', sans-serif; /* Use a bold font for titles */
-  font-weight: 400; /* Ensure bold appearance */
-  font-size: 3rem; /* Adjust font size */
-  text-transform: uppercase; /* Make text uppercase */
-  color: transparent; /* Make the inside transparent */
-  -webkit-text-stroke: 1.5px rgba(0, 8, 97, 0.87); /* Outline effect */
-  text-align: center; /* Align title to center */
-  letter-spacing: 2px; /* Adjust letter spacing for better visibility */
+  color: rgba(0, 8, 97, 0.87)
+  background-color: #f2f5f8;
 }
 
 
