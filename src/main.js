@@ -11,10 +11,11 @@ const cubes = [
 ];
 
 const trees = [
-  "./treeDrawings/tree1.jpg",
-  "./treeDrawings/tree2.jpg",
-  "./treeDrawings/tree3.jpg",
-  "./treeDrawings/tree4.jpg",
+  "./images and obj/tails image model.png",
+  "./images and obj/paper model.png",
+  "./images and obj/Screenshot 2025-02-03 004813.png",
+  "./images and obj/Screenshot 2025-02-03 004835.png",
+  "./images and obj/Screenshot 2025-02-03 004857.png",
 ];
 
 const houses = [
@@ -54,25 +55,33 @@ document.querySelector("#app").innerHTML = `
 It is beneficial at highlighting good in our world as well, but more often than not, it is overlooked and forgotten. I myself am guilty of this as well, as we are bombarded with negative information that we simply process and forget before the next piece of media is published and the cycle begins again. The information we learn is so fleeting, quick and ephemeral, but as it is so commonly negative, our outlook on life tends to reflect what we learn as well. Thus, while a commentary on the tendency of individuals to start catastrophizing, there are pockets of hope within the crowded, technological city in the cadavre. To show that while the world may seem bleak and hopeless - and it is easy to fall into pits of despair believing this - there is still good in the world, no matter how small, if individuals choose to look for it.</h4>
         </div>
       </div>
-${/* Model 2 commented out}
+
       <div id="project-row">
-      Model 2
+      INTEROP(ERABILITY)
         <div class="three-model">
           <div id="model2"></div>
         </div>
         <div id="images-description">
           <div id="images">
-            ${trees
-              .map(
-                (trees, index) =>
-                  `<img src="${trees}" alt="tree${index + 1}" />`
-              )
-              .join("")}
+             ${trees
+    .map(
+      (trees, index) => `<a href="${trees}" target="_blank"><img src="${trees}" alt="tree${index + 1}" /></a>`
+    )
+    .join("")} 
           </div>
-          <h4 id="description">A 3D tree model is a geometric representation of a tree, featuring a trunk, branches, and foliage. The trunk is typically cylindrical, with textured bark, while the branches extend outward to support leaves or a canopy. It may include roots or flowers for added detail.</h4>
+          <h4 id="description">It’s not really something I ever was too conscious of before. I had used the different surfaces to create objects but when I was working with SubDs and meshes in Rhino, I never really knew what the distinction or difference was besides the fact that one made my computer crash more frequently because it was more detailed and had more faces.
+However, I think learning about the interoperability between surfaces and the abiity to switch between different ones in order to suit the needs of a software or desired look for a creation was actually quite helpful in allowing me to
+understand how to visualize and conceptualize modeling different objects and surfaces in my mind. I am not the most versed in STL or FBX file types, but I think seeing how they can be applied and the different levels of surfaces and mesh faces does give
+me some insight as to how they could be used more efficiently in 3D modelling for landscapes and such. I think it is quite a useful thing, I feel that with these concepts in mind, it actually helped me with modelling my higher quality model as I was conscious of the different shapes, and sub-division levels. When converting from different programs as well, I was able to see how all these programs are really interconnected with one another because of the ability to transfer these types of files over quickly, and start working on the same model. It’s nice that objects can
+be converted into different file and surface types easily because it opens up
+the possibilities of what you can do to those surfaces and how you can modify
+it. I believe it helps to think more critically about modelling, using the surface
+type that fits the needs of what is being modeled most effectively and also
+showing how different processes can potentially be created in different ways
+but still end up at the same endpoint</h4>
         </div>
       </div>
-*/""}
+
 ${/* Model 3 commented out}
       <div id="project-row">
       Model 3
@@ -108,5 +117,5 @@ ${/* Model 3 commented out}
 
 // Create three.js scenes for each
 // createThreeScene("#model1", "/3DModels/project1/cube.obj");
-// createThreeScene("#model2", "/3DModels/project2/tree.obj");
+ createThreeScene("#model2", "/3DModels/project2/222222.obj");
 // createThreeScene("#model3", "/3DModels/project3/cottage.obj");
